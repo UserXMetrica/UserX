@@ -132,12 +132,18 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_DEPRECATED_MSG(...) __attribute__((deprecated(__VA_ARGS__)))
 #endif
 #if defined(__has_feature) && __has_feature(modules)
+@import Foundation;
 @import UIKit;
 @import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+
+@interface NSFileHandle (SWIFT_EXTENSION(UserX))
+- (void)write:(NSString * _Nonnull)string;
+@end
+
 
 @interface UIApplication (SWIFT_EXTENSION(UserX))
 @end
@@ -159,6 +165,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC5UserX5UserX")
 @interface UserX : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable userId;)
 + (NSString * _Nullable)userId SWIFT_WARN_UNUSED_RESULT;
 + (void)setUserId:(NSString * _Nullable)value;
@@ -167,7 +174,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable use
 ///
 + (void)start:(NSString * _Nonnull)apiKey;
 + (void)clearSessions;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface UserX (SWIFT_EXTENSION(UserX))
 @end
 
 
