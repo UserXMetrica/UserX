@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UserX_Example' do
+  pod 'UserX', :path => '../'
+
+  target 'UserX_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

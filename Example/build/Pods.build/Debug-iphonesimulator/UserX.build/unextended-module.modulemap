@@ -1,0 +1,10 @@
+framework module UserX {
+  umbrella header "UserX-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module UserX.__Swift {
+    exclude header "UserX-Swift.h"
+}

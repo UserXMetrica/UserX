@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/aleksandrborodulin/Documents/UserXCocoapods/Example/build/Debug-iphonesimulator/Pods_UserX_Example.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-UserX_Example-umbrella.h",
+          'external-contents': "/Users/aleksandrborodulin/Documents/UserXCocoapods/Example/Pods/Target Support Files/Pods-UserX_Example/Pods-UserX_Example-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_UserX_Example-Swift.h",
+          'external-contents': "/Users/aleksandrborodulin/Documents/UserXCocoapods/Example/build/Debug-iphonesimulator/Pods_UserX_Example.framework/Headers/Pods_UserX_Example-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aleksandrborodulin/Documents/UserXCocoapods/Example/build/Debug-iphonesimulator/Pods_UserX_Example.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/aleksandrborodulin/Documents/UserXCocoapods/Example/build/Pods.build/Debug-iphonesimulator/Pods-UserX_Example.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aleksandrborodulin/Documents/UserXCocoapods/Example/build/Debug-iphonesimulator/UserX/UserX.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "UserX-Swift.h",
+          'external-contents': "/Users/aleksandrborodulin/Documents/UserXCocoapods/Example/build/Debug-iphonesimulator/UserX/UserX.framework/Headers/UserX-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "UserX-umbrella.h",
+          'external-contents': "/Users/aleksandrborodulin/Documents/UserXCocoapods/Example/Pods/Target Support Files/UserX/UserX-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aleksandrborodulin/Documents/UserXCocoapods/Example/build/Debug-iphonesimulator/UserX/UserX.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/aleksandrborodulin/Documents/UserXCocoapods/Example/build/Pods.build/Debug-iphonesimulator/UserX.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

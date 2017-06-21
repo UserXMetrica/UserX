@@ -1,0 +1,25 @@
+{
+  "name": "UserX",
+  "version": "0.0.1",
+  "summary": "Video metrica.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://userx.pro",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "UserX": "dev_reg@userx.pro"
+  },
+  "source": {
+    "git": "https://github.com/UserXMetrica/UserX.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UserX/UserX.framework/Headers/*.h*",
+  "public_header_files": "UserX/UserX.framework/Headers/*.h*",
+  "preserve_paths": "UserX/UserX.framework",
+  "vendored_frameworks": "UserX/UserX.framework"
+}

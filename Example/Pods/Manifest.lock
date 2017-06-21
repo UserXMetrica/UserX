@@ -1,0 +1,16 @@
+PODS:
+  - UserX (0.0.1)
+
+DEPENDENCIES:
+  - UserX (from `../`)
+
+EXTERNAL SOURCES:
+  UserX:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UserX: 9d8ebb597aa28c353758b5c858c7f4dbb1465360
+
+PODFILE CHECKSUM: cae28a34ef4a4e1d293f03a00172fa5655dabd77
+
+COCOAPODS: 1.2.1
