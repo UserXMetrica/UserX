@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
     s.version          = '0.0.1'
     s.summary = "UserX is an analytics platform for in-depth analysis of your users’ behavior allowing you to deliver the ultimate app experience."
 
-    s.homepage         = 'http://userx.pro'
+    s.homepage         = 'https://github.com/UserXMetrica/UserX'
     s.license = {
         :type => 'Commercial',
         :text => <<-LICENSE
