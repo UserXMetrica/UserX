@@ -144,18 +144,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 - (void)write:(NSString * _Nonnull)string;
 @end
 
-
-@interface UIApplication (SWIFT_EXTENSION(UserX))
-@end
-
 @class UIResponder;
 
 @interface UIApplication (SWIFT_EXTENSION(UserX))
++ (void)initialize;
 @property (nonatomic, readonly, strong) UIResponder * _Nullable nextResponder;
 @end
 
 
 @interface UIDevice (SWIFT_EXTENSION(UserX))
+@end
+
+
+@interface UIViewController (SWIFT_EXTENSION(UserX))
 @end
 
 

@@ -1,3 +1,5 @@
+Watch every user in action and understand exactly how they use your app, which problems they’re facing, and get insights how to fix them.​ See the app through your users’ eyes to pinpoint usability, UX and performance issues.
+
 # UserX
 
 [![CI Status](http://img.shields.io/travis/UserX/UserX.svg?style=flat)](https://travis-ci.org/UserX/UserX)
@@ -18,6 +20,24 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "UserX"
+```
+
+In app delegate your application, add:
+
+```ruby
+import UserX
+```
+
+In method application:didFinishLaunchingWithOptions add a line:
+
+```ruby
+UserX.start("YOUR_API_KEY")
+```
+
+You can pass the id of the user, your application using a line of code:
+
+```ruby
+UserX.userId = "YOUR_INTERNAL_USER_ID"
 ```
 
 ## Author
