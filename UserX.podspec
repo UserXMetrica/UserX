@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
         LICENSE
     }
     s.author           = { 'UserX' => 'dev_reg@userx.pro' }
-    s.source           = { :git => 'https://github.com/UserXMetrica/UserX.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/UserXMetrica/UserX.git', :tag => 'v' + s.version.to_s }
 
     s.ios.deployment_target = '8.0'
 
