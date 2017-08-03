@@ -162,11 +162,18 @@ SWIFT_CLASS("_TtC5UserX5UserX")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable userId;)
 + (NSString * _Nullable)userId SWIFT_WARN_UNUSED_RESULT;
 + (void)setUserId:(NSString * _Nullable)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isKeyboardRenderingEnabled;)
++ (BOOL)isKeyboardRenderingEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsKeyboardRenderingEnabled:(BOOL)newValue;
 /// Starts analytics
 /// \param apiKey YOUR API_KEY from account.
 ///
 + (void)start:(NSString * _Nonnull)apiKey;
 + (void)clearSessions;
+@end
+
+
+@interface UserX (SWIFT_EXTENSION(UserX))
 @end
 
 
