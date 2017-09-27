@@ -7,4 +7,5 @@ framework module UserX {
 
 module UserX.Swift {
     header "UserX-Swift.h"
+    requires objc
 }
