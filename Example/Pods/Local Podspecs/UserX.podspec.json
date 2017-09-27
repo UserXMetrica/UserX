@@ -1,6 +1,6 @@
 {
   "name": "UserX",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "summary": "UserX is an analytics platform for in-depth analysis of your users’ behavior allowing you to deliver the ultimate app experience.",
   "homepage": "http://userx.pro",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/UserXMetrica/UserX.git",
-    "tag": "v0.7.0"
+    "tag": "v0.7.1"
   },
   "platforms": {
     "ios": "8.0"
