@@ -191,6 +191,8 @@ SWIFT_MODULE_NAMESPACE_PUSH("UserX")
 - (void)write:(NSString * _Nonnull)string SWIFT_DEPRECATED_OBJC("Swift method 'FileHandle.write(_:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 @end
 
+
+
 @class UIResponder;
 
 @interface UIApplication (SWIFT_EXTENSION(UserX))
@@ -210,6 +212,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable use
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isKeyboardRenderingEnabled SWIFT_DEPRECATED_OBJC("Swift property 'UserX.isKeyboardRenderingEnabled' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");)
 + (BOOL)isKeyboardRenderingEnabled SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_OBJC("Swift property 'UserX.isKeyboardRenderingEnabled' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 + (void)setIsKeyboardRenderingEnabled:(BOOL)newValue SWIFT_DEPRECATED_OBJC("Swift property 'UserX.isKeyboardRenderingEnabled' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL catchExceptions SWIFT_DEPRECATED_OBJC("Swift property 'UserX.catchExceptions' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");)
++ (BOOL)catchExceptions SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_OBJC("Swift property 'UserX.catchExceptions' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
++ (void)setCatchExceptions:(BOOL)newValue SWIFT_DEPRECATED_OBJC("Swift property 'UserX.catchExceptions' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 /// Starts analytics
 /// \param apiKey YOUR API_KEY from account.
 ///
