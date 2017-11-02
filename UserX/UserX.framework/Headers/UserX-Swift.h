@@ -215,6 +215,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isKeyboardRenderingEnable
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL catchExceptions SWIFT_DEPRECATED_OBJC("Swift property 'UserX.catchExceptions' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");)
 + (BOOL)catchExceptions SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_OBJC("Swift property 'UserX.catchExceptions' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 + (void)setCatchExceptions:(BOOL)newValue SWIFT_DEPRECATED_OBJC("Swift property 'UserX.catchExceptions' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
++ (void)addSessionParam:(NSString * _Nonnull)name with:(NSDictionary<NSString *, id> * _Nullable)attributes SWIFT_DEPRECATED_OBJC("Swift method 'UserX.addSessionParam(_:with:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 /// Starts analytics
 /// \param apiKey YOUR API_KEY from account.
 ///
