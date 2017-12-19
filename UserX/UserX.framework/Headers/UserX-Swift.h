@@ -241,5 +241,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL catchExceptions SWIFT_DEP
 
 
 
+
+@interface UserX (SWIFT_EXTENSION(UserX))
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull externalId SWIFT_DEPRECATED_OBJC("Swift property 'UserX.externalId' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");)
++ (NSString * _Nonnull)externalId SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_OBJC("Swift property 'UserX.externalId' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
+@end
+
 SWIFT_MODULE_NAMESPACE_POP
 #pragma clang diagnostic pop
