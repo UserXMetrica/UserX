@@ -193,6 +193,8 @@ SWIFT_MODULE_NAMESPACE_PUSH("UserX")
 
 
 
+
+
 @class UIResponder;
 
 @interface UIApplication (SWIFT_EXTENSION(UserX))
