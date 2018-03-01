@@ -232,6 +232,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL catchExceptions SWIFT_DEP
 
 
 
+@interface UserX (SWIFT_EXTENSION(UserX))
++ (void)startScreen:(id _Nonnull)screenController screenName:(NSString * _Nullable)screenName parentController:(id _Nullable)parentController parentName:(NSString * _Nullable)parentName SWIFT_DEPRECATED_OBJC("Swift method 'UserX.startScreen(_:screenName:parentController:parentName:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
+@end
+
+
 
 
 
