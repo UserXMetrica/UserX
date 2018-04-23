@@ -234,13 +234,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hideSecureEntries SWIFT_D
 @end
 
 
-
-
 @interface UserX (SWIFT_EXTENSION(UserX))
 + (void)startScreen:(id _Nonnull)screenController screenName:(NSString * _Nullable)screenName parentController:(id _Nullable)parentController parentName:(NSString * _Nullable)parentName SWIFT_DEPRECATED_OBJC("Swift method 'UserX.startScreen(_:screenName:parentController:parentName:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 @end
-
-
 
 
 
@@ -265,6 +261,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull crashlyticsUrl SWIFT_DEPRECATED_OBJC("Swift property 'UserX.crashlyticsUrl' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");)
 + (NSString * _Nonnull)crashlyticsUrl SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_OBJC("Swift property 'UserX.crashlyticsUrl' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 @end
+
+
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
