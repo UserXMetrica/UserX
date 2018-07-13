@@ -235,6 +235,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hideSecureEntries SWIFT_D
 /// \param apiKey YOUR API_KEY from account.
 ///
 + (void)start:(NSString * _Nonnull)apiKey SWIFT_DEPRECATED_OBJC("Swift method 'UserX.start(_:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
++ (void)startScreenRecording SWIFT_DEPRECATED_OBJC("Swift method 'UserX.startScreenRecording()' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
++ (void)stopScreenRecording SWIFT_DEPRECATED_OBJC("Swift method 'UserX.stopScreenRecording()' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoRecording SWIFT_DEPRECATED_OBJC("Swift property 'UserX.isFullVideoRecording' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");)
++ (BOOL)isFullVideoRecording SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_OBJC("Swift property 'UserX.isFullVideoRecording' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 + (void)clearSessions SWIFT_DEPRECATED_OBJC("Swift method 'UserX.clearSessions()' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 @end
 
