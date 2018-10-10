@@ -208,6 +208,33 @@ SWIFT_CLASS("_TtC5UserX5UserX")
 @interface UserX : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable userId;)
++ (NSString * _Nullable)userId SWIFT_WARN_UNUSED_RESULT;
++ (void)setUserId:(NSString * _Nullable)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nullable userIndex;)
++ (NSString * _Nullable)userIndex SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isKeyboardRenderingEnabled;)
++ (BOOL)isKeyboardRenderingEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsKeyboardRenderingEnabled:(BOOL)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isScrollRenderingEnabled;)
++ (BOOL)isScrollRenderingEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsScrollRenderingEnabled:(BOOL)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL catchExceptions;)
++ (BOOL)catchExceptions SWIFT_WARN_UNUSED_RESULT;
++ (void)setCatchExceptions:(BOOL)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hideSecureEntries;)
++ (BOOL)hideSecureEntries SWIFT_WARN_UNUSED_RESULT;
++ (void)setHideSecureEntries:(BOOL)newValue;
++ (void)addEvent:(NSString * _Nonnull)name with:(NSDictionary<NSString *, id> * _Nullable)parameters;
+/// Starts analytics
+/// \param apiKey YOUR API_KEY from account.
+///
++ (void)start:(NSString * _Nonnull)apiKey;
++ (void)startScreenRecording;
++ (void)stopScreenRecording;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoRecording;)
++ (BOOL)isFullVideoRecording SWIFT_WARN_UNUSED_RESULT;
++ (void)clearSessions;
 @end
 
 
