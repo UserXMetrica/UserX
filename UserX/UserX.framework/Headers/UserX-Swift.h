@@ -219,6 +219,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isKeyboardRenderingEnable
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isScrollRenderingEnabled;)
 + (BOOL)isScrollRenderingEnabled SWIFT_WARN_UNUSED_RESULT;
 + (void)setIsScrollRenderingEnabled:(BOOL)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isIpadRenderingEnabled;)
++ (BOOL)isIpadRenderingEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsIpadRenderingEnabled:(BOOL)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL catchExceptions;)
 + (BOOL)catchExceptions SWIFT_WARN_UNUSED_RESULT;
 + (void)setCatchExceptions:(BOOL)newValue;
@@ -236,8 +239,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 + (BOOL)isFullVideoRecording SWIFT_WARN_UNUSED_RESULT;
 + (void)clearSessions;
 @end
-
-
 
 
 
