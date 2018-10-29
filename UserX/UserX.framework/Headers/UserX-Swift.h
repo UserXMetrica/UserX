@@ -226,6 +226,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isKeyboardRenderingEnable
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isScrollRenderingEnabled;)
 + (BOOL)isScrollRenderingEnabled SWIFT_WARN_UNUSED_RESULT;
 + (void)setIsScrollRenderingEnabled:(BOOL)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isIpadRenderingEnabled;)
++ (BOOL)isIpadRenderingEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsIpadRenderingEnabled:(BOOL)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL catchExceptions;)
 + (BOOL)catchExceptions SWIFT_WARN_UNUSED_RESULT;
 + (void)setCatchExceptions:(BOOL)newValue;
@@ -253,8 +256,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 @interface UserX (SWIFT_EXTENSION(UserX))
 + (void)startScreen:(id _Nonnull)screenController screenName:(NSString * _Nullable)screenName parentController:(id _Nullable)parentController parentName:(NSString * _Nullable)parentName SWIFT_DEPRECATED_OBJC("Swift method 'UserX.startScreen(_:screenName:parentController:parentName:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 @end
-
-
 
 
 
