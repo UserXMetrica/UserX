@@ -200,6 +200,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+@interface UIView (SWIFT_EXTENSION(UserX))
+@property (nonatomic) BOOL isSensitive;
+@end
 
 
 
@@ -245,6 +248,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 
 
 
+@interface UserX (SWIFT_EXTENSION(UserX))
++ (void)startScreen:(id _Nonnull)screenController screenName:(NSString * _Nullable)screenName parentController:(id _Nullable)parentController parentName:(NSString * _Nullable)parentName;
+@end
 
 
 
@@ -257,6 +263,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 
 
 
+@interface UserX (SWIFT_EXTENSION(UserX))
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull externalAnalyticsUrl;)
++ (NSString * _Nonnull)externalAnalyticsUrl SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull crashlyticsUrl;)
++ (NSString * _Nonnull)crashlyticsUrl SWIFT_WARN_UNUSED_RESULT;
+@end
 
 
 
