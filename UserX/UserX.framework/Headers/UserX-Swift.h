@@ -268,14 +268,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 
 
 
+
+
 @interface UserX (SWIFT_EXTENSION(UserX))
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull externalAnalyticsUrl;)
 + (NSString * _Nonnull)externalAnalyticsUrl SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull crashlyticsUrl;)
 + (NSString * _Nonnull)crashlyticsUrl SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nullable sessionUrl;)
++ (NSString * _Nullable)sessionUrl SWIFT_WARN_UNUSED_RESULT;
 @end
-
-
 
 
 
