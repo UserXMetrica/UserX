@@ -207,6 +207,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+
 SWIFT_CLASS("_TtC5UserX5UserX")
 @interface UserX : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -251,6 +253,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 @interface UserX (SWIFT_EXTENSION(UserX))
 + (void)startScreen:(id _Nonnull)screenController screenName:(NSString * _Nullable)screenName parentController:(id _Nullable)parentController parentName:(NSString * _Nullable)parentName;
 @end
+
+
+
+
+
+
 
 
 
