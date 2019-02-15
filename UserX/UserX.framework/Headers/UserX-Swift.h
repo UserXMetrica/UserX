@@ -211,6 +211,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+
 SWIFT_CLASS("_TtC5UserX5UserX")
 @interface UserX : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -235,7 +237,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL catchExceptions;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hideSecureEntries;)
 + (BOOL)hideSecureEntries SWIFT_WARN_UNUSED_RESULT;
 + (void)setHideSecureEntries:(BOOL)newValue;
-+ (void)addSessionParam:(NSString * _Nonnull)name with:(NSDictionary<NSString *, id> * _Nullable)attributes SWIFT_DEPRECATED_MSG("", "addEvent") SWIFT_DEPRECATED_OBJC("Swift method 'UserX.addSessionParam(_:with:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 + (void)addEvent:(NSString * _Nonnull)name with:(NSDictionary<NSString *, id> * _Nullable)parameters;
 /// Starts analytics
 /// \param apiKey YOUR API_KEY from account.
@@ -264,6 +265,17 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 
 
 
+
+
+
+
+
+
+@interface UserX (SWIFT_EXTENSION(UserX))
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isPermissionDialogAllowed SWIFT_DEPRECATED_OBJC("Swift property 'UserX.isPermissionDialogAllowed' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");)
++ (BOOL)isPermissionDialogAllowed SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_OBJC("Swift property 'UserX.isPermissionDialogAllowed' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
++ (void)requestRecordingPermission SWIFT_DEPRECATED_OBJC("Swift method 'UserX.requestRecordingPermission()' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
+@end
 
 
 
