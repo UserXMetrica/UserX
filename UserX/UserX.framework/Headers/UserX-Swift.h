@@ -244,6 +244,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hideSecureEntries;)
 + (void)start:(NSString * _Nonnull)apiKey;
 + (void)startScreenRecording;
 + (void)stopScreenRecording;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL recordScreenIfNotDetermined;)
++ (BOOL)recordScreenIfNotDetermined SWIFT_WARN_UNUSED_RESULT;
++ (void)setRecordScreenIfNotDetermined:(BOOL)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoRecording;)
 + (BOOL)isFullVideoRecording SWIFT_WARN_UNUSED_RESULT;
 + (void)clearSessions;
