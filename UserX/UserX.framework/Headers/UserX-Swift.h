@@ -192,12 +192,18 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+
 @class UIResponder;
 
 @interface UIApplication (SWIFT_EXTENSION(UserX))
 + (void)initialize;
 @property (nonatomic, readonly, strong) UIResponder * _Nullable nextResponder;
 @end
+
+
+
+
 
 
 
