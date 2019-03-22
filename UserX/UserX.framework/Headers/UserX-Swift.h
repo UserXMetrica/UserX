@@ -165,6 +165,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_feature(modules)
 @import Foundation;
 @import ObjectiveC;
+@import QuartzCore;
 @import UIKit;
 #endif
 
@@ -182,6 +183,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="UserX",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+
+
+
+@interface CALayer (SWIFT_EXTENSION(UserX))
+@property (nonatomic) BOOL isSensitive;
+@end
 
 
 
@@ -206,9 +214,25 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @interface UIView (SWIFT_EXTENSION(UserX))
 @property (nonatomic) BOOL isSensitive;
 @end
+
+
 
 
 
@@ -259,11 +283,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 
 
 
+
+
 @interface UserX (SWIFT_EXTENSION(UserX))
 + (void)startScreen:(id _Nonnull)screenController screenName:(NSString * _Nullable)screenName parentController:(id _Nullable)parentController parentName:(NSString * _Nullable)parentName;
 @end
-
-
 
 
 
