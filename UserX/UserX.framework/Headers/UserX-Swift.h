@@ -199,6 +199,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+SWIFT_CLASS("_TtC5UserX17ThirdPartyService")
+@interface ThirdPartyService : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+@interface ThirdPartyService (SWIFT_EXTENSION(UserX))
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ThirdPartyService * _Nonnull appsFlyer;)
++ (ThirdPartyService * _Nonnull)appsFlyer SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
 
 
 
@@ -287,11 +300,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 
 
 
-
-
 @interface UserX (SWIFT_EXTENSION(UserX))
 + (void)startScreen:(id _Nonnull)screenController screenName:(NSString * _Nullable)screenName parentController:(id _Nullable)parentController parentName:(NSString * _Nullable)parentName;
 @end
+
+
 
 
 
@@ -313,6 +326,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isPermissionDia
 
 
 
+@interface UserX (SWIFT_EXTENSION(UserX))
++ (void)setService:(ThirdPartyService * _Nonnull)service id:(NSString * _Nonnull)id;
+@end
+
+
 
 
 @interface UserX (SWIFT_EXTENSION(UserX))
@@ -323,8 +341,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nullable sessionUrl;)
 + (NSString * _Nullable)sessionUrl SWIFT_WARN_UNUSED_RESULT;
 @end
-
-
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
