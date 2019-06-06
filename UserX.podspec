@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name             = 'UserX'
-    s.version          = '0.14.0'
+    s.version          = '0.15.0'
     s.summary = "UserX is an analytics platform for in-depth analysis of your users’ behavior allowing you to deliver the ultimate app experience."
     s.homepage         = 'http://userx.pro'
     s.license = {
         :type => 'Commercial',
         :text => <<-LICENSE
-        Copyright (c) 2017, Just LLC. UserX
+        Copyright (c) 2019, Just LLC. UserX
         All rights reserved.
 
         Redistribution and use in source and binary forms, with or without
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     }
     s.author           = { 'UserX' => 'dev_reg@userx.pro' }
     s.source           = { :git => 'https://github.com/UserXMetrica/UserX.git', :tag => 'v' + s.version.to_s }
-    s.swift_version ='3.3'
+    s.swift_version ='5.0'
     s.ios.deployment_target = '8.0'
     s.source_files = 'UserX/UserX.framework/Headers/*.h*'
     s.public_header_files = 'UserX/UserX.framework/Headers/*.h*'
