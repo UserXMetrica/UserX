@@ -257,7 +257,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ThirdPartySe
 
 
 
-SWIFT_CLASS("_TtC5UserX5UserX")
+SWIFT_CLASS_NAMED("UserX")
 @interface UserX : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -327,8 +327,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 @end
 
 
-
-
 @interface UserX (SWIFT_EXTENSION(UserX))
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull externalAnalyticsUrl;)
 + (NSString * _Nonnull)externalAnalyticsUrl SWIFT_WARN_UNUSED_RESULT;
@@ -337,6 +335,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nullable sessionUrl;)
 + (NSString * _Nullable)sessionUrl SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -601,7 +601,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ThirdPartySe
 
 
 
-SWIFT_CLASS("_TtC5UserX5UserX")
+SWIFT_CLASS_NAMED("UserX")
 @interface UserX : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -671,8 +671,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 @end
 
 
-
-
 @interface UserX (SWIFT_EXTENSION(UserX))
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull externalAnalyticsUrl;)
 + (NSString * _Nonnull)externalAnalyticsUrl SWIFT_WARN_UNUSED_RESULT;
@@ -681,6 +679,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nullable sessionUrl;)
 + (NSString * _Nullable)sessionUrl SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
