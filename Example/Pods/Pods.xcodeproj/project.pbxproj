@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		100DF9642D47A97D765C8DF91D104AAC /* Pods_UserX_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UserX_Tests.framework; path = "Pods-UserX_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		100DF9642D47A97D765C8DF91D104AAC /* Pods_UserX_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserX_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2266BD4CD0043D36202339D00C272C71 /* Pods-UserX_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UserX_Example-resources.sh"; sourceTree = "<group>"; };
 		24D0C8C5C5E19789A754E0613DF05162 /* Pods-UserX_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UserX_Tests-dummy.m"; sourceTree = "<group>"; };
 		2AF8EDB9A90A06FA5A5A0CBA6A75DE1D /* Pods-UserX_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UserX_Example-dummy.m"; sourceTree = "<group>"; };
@@ -28,19 +28,19 @@
 		6AF9FE04073AB4383E4FABB602AC80F3 /* UserX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserX.framework; path = UserX/UserX.framework; sourceTree = "<group>"; };
 		8BCABF4983450C2495125D36FD9C5004 /* Pods-UserX_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UserX_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9290E2E2FDAB6FCAA67986DD613F756B /* UserX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserX.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99F3DC87497C849C627E72D32D0B82B7 /* UserX-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UserX-Swift.h"; sourceTree = "<group>"; };
-		A013CC6E1D0273CDD16F5A026DF98338 /* Pods_UserX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UserX_Example.framework; path = "Pods-UserX_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A013CC6E1D0273CDD16F5A026DF98338 /* Pods_UserX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA84C5116F98EE6D60FC8F389D1068FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B00ACAE1C0168852C7873DDA803F4E04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2D322D107EB12DCFCDB81ABC7670E58 /* Pods-UserX_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UserX_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C433DDB8833D3137E097A60D78A251F9 /* Pods-UserX_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UserX_Tests.modulemap"; sourceTree = "<group>"; };
+		C433DDB8833D3137E097A60D78A251F9 /* Pods-UserX_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UserX_Tests.modulemap"; sourceTree = "<group>"; };
 		C4D8662545153E61BD5E8893252D9C18 /* Pods-UserX_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UserX_Example-umbrella.h"; sourceTree = "<group>"; };
 		C5D9568FB04E8C58331B71F0C340E912 /* Pods-UserX_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UserX_Tests-resources.sh"; sourceTree = "<group>"; };
 		C90CF0480C36C38629137EA7DFA6071C /* Pods-UserX_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UserX_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CD2C61CCF6C4E2BEBE46042F73ABD5FF /* Pods-UserX_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UserX_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D2AE3FD24B1227B2BF5994F3533B99B4 /* Pods-UserX_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UserX_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E1CE9068BCF056D8A83E910EA9BACFD0 /* Pods-UserX_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UserX_Example.modulemap"; sourceTree = "<group>"; };
+		E1CE9068BCF056D8A83E910EA9BACFD0 /* Pods-UserX_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UserX_Example.modulemap"; sourceTree = "<group>"; };
 		E41A69B551FA39C63D613A70D25885B7 /* Pods-UserX_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UserX_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F9FD799DFD98B2CC4E6D031D0D52F7F7 /* Pods-UserX_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UserX_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,7 +96,6 @@
 			children = (
 				9F6D94427FD3B4BDA8AE2E636EF02465 /* Headers */,
 			);
-			name = UserX.framework;
 			path = UserX.framework;
 			sourceTree = "<group>";
 		};
@@ -145,7 +144,6 @@
 				9290E2E2FDAB6FCAA67986DD613F756B /* UserX.h */,
 				99F3DC87497C849C627E72D32D0B82B7 /* UserX-Swift.h */,
 			);
-			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
@@ -154,7 +152,6 @@
 			children = (
 				57BD1B65BEBC56243C0853DC569F84A7 /* UserX.framework */,
 			);
-			name = UserX;
 			path = UserX;
 			sourceTree = "<group>";
 		};
@@ -263,14 +260,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1140;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 972A1913A374D9D6D574B52062813B9D /* Products */;
@@ -379,29 +377,40 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -463,28 +472,39 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
