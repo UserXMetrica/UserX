@@ -15,12 +15,24 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### CocoaPods
+
 UserX is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "UserX"
 ```
+
+### Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate UserX into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ruby
+binary "https://raw.githubusercontent.com/UserXMetrica/UserX/master/UserX.json"
+```
+
+## Setup
 
 In app delegate your application, add:
 
