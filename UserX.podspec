@@ -35,11 +35,7 @@ Pod::Spec.new do |s|
         LICENSE
     }
     s.author           = { 'UserX' => 'dev_reg@userx.pro' }
-    s.source           = { :git => 'https://github.com/UserXMetrica/UserX.git', :tag => 'v' + s.version.to_s }
-    s.swift_version ='5.1.3'
+    s.source           = { :git => 'https://github.com/UserXMetrica/UserX.git', :tag => s.version.to_s }
     s.ios.deployment_target = '8.0'
-    s.source_files = 'UserX/UserX.framework/Headers/*.h*'
-    s.public_header_files = 'UserX/UserX.framework/Headers/*.h*'
-    s.preserve_paths = 'UserX/UserX.framework'
-    s.vendored_frameworks = 'UserX/UserX.framework'
+    s.vendored_frameworks = 'UserX/UserXKit.xcframework'
 end
