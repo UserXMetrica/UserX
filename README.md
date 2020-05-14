@@ -37,7 +37,7 @@ binary "https://raw.githubusercontent.com/UserXMetrica/UserX/master/UserX.json"
 In app delegate your application, add:
 
 ```ruby
-import UserX
+import UserXKit
 ```
 
 In method application:didFinishLaunchingWithOptions add a line:
