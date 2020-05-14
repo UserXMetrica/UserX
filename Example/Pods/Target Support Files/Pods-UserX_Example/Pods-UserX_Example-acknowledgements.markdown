@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## UserX
 
-Copyright (c) 2017, Just LLC. UserX
+Copyright (c) 2020, Just LLC. UserX
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

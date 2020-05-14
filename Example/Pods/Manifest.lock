@@ -1,16 +1,16 @@
 PODS:
-  - UserX (0.7.1)
+  - UserX (0.16.0)
 
 DEPENDENCIES:
   - UserX (from `../`)
 
 EXTERNAL SOURCES:
   UserX:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  UserX: 5db88b4e19d86898cb66e88e3fe708a36db080cc
+  UserX: dec7d9805e4599d2236e0db833b0001791a305a6
 
 PODFILE CHECKSUM: cae28a34ef4a4e1d293f03a00172fa5655dabd77
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.9.1
