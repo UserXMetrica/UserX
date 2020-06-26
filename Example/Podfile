@@ -5,7 +5,6 @@ target 'UserX_Example' do
 
   target 'UserX_Tests' do
     inherit! :search_paths
-
     
   end
 end

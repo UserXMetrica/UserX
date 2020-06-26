@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "668ee6559b6ff05dafc5dbb33f1c4177"
-build_time: [551287233, 609000]
-inputs:
-  "/Users/aleksandrborodulin/Documents/UserXCocoapods/UserX/Classes/ReplaceMe.swift": [551287189, 0]
