@@ -1,6 +1,5 @@
 {
-    "0.16.0": "https://github.com/UserXMetrica/UserX/releases/download/v0.16.0/UserX_swift-5.2.zip",
-    "1.0.0": "https://github.com/UserXMetrica/UserX/releases/download/1.0.0/UserXKit.zip",
     "1.1.0": "https://github.com/UserXMetrica/UserX/releases/download/1.1.0/UserXKit.zip",
-    "1.1.1": "https://github.com/UserXMetrica/UserX/releases/download/1.1.1/UserXKit.zip"
+    "1.1.1": "https://github.com/UserXMetrica/UserX/releases/download/1.1.1/UserXKit.zip",
+    "1.2.0": "https://github.com/UserXMetrica/UserX/releases/download/1.2.0/UserXKit.zip"
 }
