@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'UserX'
-    s.version          = '1.2.0'
+    s.version          = '1.2.1'
     s.summary = "UserX is an analytics platform for in-depth analysis of your users’ behavior allowing you to deliver the ultimate app experience."
     s.homepage         = 'http://userx.pro'
     s.license = {
@@ -37,5 +37,14 @@ Pod::Spec.new do |s|
     s.author           = { 'UserX' => 'dev_reg@userx.pro' }
     s.source           = { :git => 'https://github.com/UserXMetrica/UserX.git', :tag => s.version.to_s }
     s.ios.deployment_target = '8.0'
-    s.vendored_frameworks = 'UserX/UserXKit.xcframework'
+
+    s.default_subspec = 'XCFramework'
+
+    s.subspec 'XCFramework' do |xcf|
+        xcf.vendored_frameworks = 'UserX/UserXKit.xcframework'
+    end
+
+    s.subspec 'Fat' do |fat|
+        fat.vendored_frameworks = 'UserX/UserXKit.framework'
+    end
 end
