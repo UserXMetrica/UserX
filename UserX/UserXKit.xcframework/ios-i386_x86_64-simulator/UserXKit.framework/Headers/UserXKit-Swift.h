@@ -299,6 +299,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isScrollRenderingEnabled;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isIpadRenderingEnabled;)
 + (BOOL)isIpadRenderingEnabled SWIFT_WARN_UNUSED_RESULT;
 + (void)setIsIpadRenderingEnabled:(BOOL)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL ignoreLowMemory;)
++ (BOOL)ignoreLowMemory SWIFT_WARN_UNUSED_RESULT;
++ (void)setIgnoreLowMemory:(BOOL)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL catchExceptions;)
 + (BOOL)catchExceptions SWIFT_WARN_UNUSED_RESULT;
 + (void)setCatchExceptions:(BOOL)value;
@@ -330,6 +333,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 @interface UserX (SWIFT_EXTENSION(UserXKit))
 + (void)startScreen:(id _Nonnull)screenController screenName:(NSString * _Nullable)screenName parentController:(id _Nullable)parentController parentName:(NSString * _Nullable)parentName;
 @end
+
+
 
 
 
@@ -671,6 +676,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isScrollRenderingEnabled;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isIpadRenderingEnabled;)
 + (BOOL)isIpadRenderingEnabled SWIFT_WARN_UNUSED_RESULT;
 + (void)setIsIpadRenderingEnabled:(BOOL)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL ignoreLowMemory;)
++ (BOOL)ignoreLowMemory SWIFT_WARN_UNUSED_RESULT;
++ (void)setIgnoreLowMemory:(BOOL)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL catchExceptions;)
 + (BOOL)catchExceptions SWIFT_WARN_UNUSED_RESULT;
 + (void)setCatchExceptions:(BOOL)value;
@@ -702,6 +710,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 @interface UserX (SWIFT_EXTENSION(UserXKit))
 + (void)startScreen:(id _Nonnull)screenController screenName:(NSString * _Nullable)screenName parentController:(id _Nullable)parentController parentName:(NSString * _Nullable)parentName;
 @end
+
+
 
 
 

@@ -67,6 +67,10 @@ extension UserX {
     @objc get
     @objc set
   }
+  @objc public static var ignoreLowMemory: Swift.Bool {
+    @objc get
+    @objc set
+  }
   @objc public static var catchExceptions: Swift.Bool {
     @objc get
     @objc set
