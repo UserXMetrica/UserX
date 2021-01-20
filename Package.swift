@@ -18,7 +18,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "UserXKit",
-            url: "https://github.com/UserXMetrica/UserX/releases/download/1.3.0/UserXKit.XCFramework_swift-5.3.zip",
-            checksum: "664f4427139818904229d3d7955da39089f4351b6f946ce2fc00e4bae4456039"
+            url: "https://github.com/UserXMetrica/UserX/releases/download/1.3.1/UserXKit.XCFramework_swift-5.3.zip",
+            checksum: "df140f72abaaa08342b1fb26c9b2c64ebfc88039ec05ad00f5298f1fcb016765"
     ]
 )

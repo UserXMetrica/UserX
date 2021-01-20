@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name             = 'UserX'
-    s.version          = '1.3.0'
+    s.version          = '1.3.1'
     s.summary = "UserX is an analytics platform for in-depth analysis of your users’ behavior allowing you to deliver the ultimate app experience."
     s.homepage         = 'http://userx.pro'
     s.license = {
         :type => 'Commercial',
         :text => <<-LICENSE
-        Copyright (c) 2020, Just LLC. UserX
+        Copyright (c) 2021, Just LLC. UserX
         All rights reserved.
 
         Redistribution and use in source and binary forms, with or without
