@@ -1,0 +1,18 @@
+PODS:
+  - UserX (1.4.0):
+    - UserX/XCFramework (= 1.4.0)
+  - UserX/XCFramework (1.4.0)
+
+DEPENDENCIES:
+  - UserX (from `../`)
+
+EXTERNAL SOURCES:
+  UserX:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UserX: cfbb206be23e2cdb93d7cc66dafcf09a966aa67c
+
+PODFILE CHECKSUM: 922ddbdf324bf77a6432103d6f2fbf65d3a798c3
+
+COCOAPODS: 1.9.3

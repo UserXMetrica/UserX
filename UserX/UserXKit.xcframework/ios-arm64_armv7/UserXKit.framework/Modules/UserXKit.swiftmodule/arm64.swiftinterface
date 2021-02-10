@@ -1,0 +1,166 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target arm64-apple-ios8.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UserXKit
+import CoreGraphics
+import Foundation
+import MobileCoreServices
+import Security
+import Swift
+import SystemConfiguration
+import UIKit
+import VideoToolbox
+public enum RequestRecordingPermissionDialogStyle : Swift.String {
+  case oneButton
+  case twoButtons
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension UserX {
+  public enum RequestRecordingPermissionDialogConfig {
+    public typealias PrivacyAction = (key: Swift.String, url: Foundation.URL)
+    public static var oneButtonDialogContent: (title: Swift.String?, message: Swift.String?, allowButtonTitle: Swift.String) {
+      get
+      set
+    }
+    public static var twoButtonsDialogContent: (title: Swift.String?, message: Swift.String?, allowButtonTitle: Swift.String, denyButtonTitle: Swift.String) {
+      get
+      set
+    }
+    public static var privacyAction: UserXKit.UserX.RequestRecordingPermissionDialogConfig.PrivacyAction? {
+      get
+      set
+    }
+  }
+}
+extension UserX {
+  public static var isPermissionDialogAllowed: Swift.Bool {
+    get
+  }
+  public static func requestRecordingPermission()
+  public static func requestRecordingPermission(dialogStyle: UserXKit.RequestRecordingPermissionDialogStyle)
+}
+extension UserX {
+  @objc public static let externalAnalyticsUrl: Swift.String
+  @objc public static let crashlyticsUrl: Swift.String
+  @objc public static var sessionUrl: Swift.String? {
+    @objc get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(UserX) public class UserX : ObjectiveC.NSObject {
+  @objc deinit
+  @objc public static var userId: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public static var userIndex: Swift.String? {
+    @objc get
+  }
+  @objc public static var isKeyboardRenderingEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var isScrollRenderingEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var isIpadRenderingEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var ignoreLowMemory: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var catchExceptions: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var hideSecureEntries: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public class func addEvent(_ name: Swift.String, with parameters: [Swift.String : Any]? = nil)
+  @objc public class func start(_ apiKey: Swift.String)
+  @objc public class func startScreenRecording()
+  @objc public class func stopScreenRecording()
+  @objc public static var recordScreenIfNotDetermined: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var isFullVideoRecording: Swift.Bool {
+    @objc get
+  }
+  @objc public static func startGesturesAttribution()
+  @objc public static func stopGesturesAttribution()
+  @objc public class func clearSessions()
+}
+@_hasMissingDesignatedInitializers @objc final public class ThirdPartyService : ObjectiveC.NSObject {
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension ThirdPartyService {
+  @objc public static var appsFlyer: UserXKit.ThirdPartyService {
+    @objc get
+  }
+}
+extension UserX {
+  @objc public static func setService(_ service: UserXKit.ThirdPartyService, id: Swift.String)
+}
+public struct Clock {
+  public static var timestamp: Foundation.TimeInterval? {
+    get
+  }
+  public static var now: Foundation.Date? {
+    get
+  }
+  public static func sync(from pool: Swift.String = "time.apple.com", samples: Swift.Int = 4, first: ((Foundation.Date, Foundation.TimeInterval) -> Swift.Void)? = nil, completion: ((Foundation.Date?, Foundation.TimeInterval?) -> Swift.Void)? = nil)
+  public static func reset()
+}
+extension CALayer {
+  @objc dynamic public var isSensitive: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
+public enum RecordingPersmissionStatus : Swift.String, Swift.Codable {
+  case notDetermined
+  case allowed
+  case denied
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension UserX {
+  public static var recordingPermissionStatus: UserXKit.RecordingPersmissionStatus {
+    get
+    set
+  }
+}
+extension UserX {
+  @objc dynamic public class func startScreen(_ screenController: Any, screenName: Swift.String? = nil, parentController: Any? = nil, parentName: Swift.String? = nil)
+}
+extension FileHandle : Swift.TextOutputStream {
+  public func write(_ string: Swift.String)
+}
+extension UIApplication {
+  @objc override dynamic open var next: UIKit.UIResponder? {
+    @objc get
+  }
+}
+extension UIView {
+  @objc dynamic public var isSensitive: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
+extension UserXKit.RequestRecordingPermissionDialogStyle : Swift.Equatable {}
+extension UserXKit.RequestRecordingPermissionDialogStyle : Swift.Hashable {}
+extension UserXKit.RequestRecordingPermissionDialogStyle : Swift.RawRepresentable {}
+extension UserXKit.RecordingPersmissionStatus : Swift.Equatable {}
+extension UserXKit.RecordingPersmissionStatus : Swift.Hashable {}
+extension UserXKit.RecordingPersmissionStatus : Swift.RawRepresentable {}

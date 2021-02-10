@@ -51,7 +51,10 @@ extension UserX {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(UserX) public class UserX : ObjectiveC.NSObject {
   @objc deinit
-  @objc public static var userId: Swift.String?
+  @objc public static var userId: Swift.String? {
+    @objc get
+    @objc set
+  }
   @objc public static var userIndex: Swift.String? {
     @objc get
   }
@@ -64,6 +67,10 @@ extension UserX {
     @objc set
   }
   @objc public static var isIpadRenderingEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static var ignoreLowMemory: Swift.Bool {
     @objc get
     @objc set
   }
@@ -86,6 +93,8 @@ extension UserX {
   @objc public static var isFullVideoRecording: Swift.Bool {
     @objc get
   }
+  @objc public static func startGesturesAttribution()
+  @objc public static func stopGesturesAttribution()
   @objc public class func clearSessions()
 }
 @_hasMissingDesignatedInitializers @objc final public class ThirdPartyService : ObjectiveC.NSObject {
