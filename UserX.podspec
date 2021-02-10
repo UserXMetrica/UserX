@@ -46,5 +46,7 @@ Pod::Spec.new do |s|
 
     s.subspec 'Fat' do |fat|
         fat.vendored_frameworks = 'UserX/UserXKit.framework'
+        fat.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+        fat.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     end
 end
