@@ -86,6 +86,10 @@ extension UserX {
   @objc public class func start(_ apiKey: Swift.String)
   @objc public class func startScreenRecording()
   @objc public class func stopScreenRecording()
+  @objc public static var screenRecordingFps: Swift.Double {
+    @objc get
+    @objc set
+  }
   @objc public static var recordScreenIfNotDetermined: Swift.Bool {
     @objc get
     @objc set

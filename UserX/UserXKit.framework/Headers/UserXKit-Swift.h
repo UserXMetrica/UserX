@@ -295,6 +295,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hideSecureEntries;)
 + (void)start:(NSString * _Nonnull)apiKey;
 + (void)startScreenRecording;
 + (void)stopScreenRecording;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double screenRecordingFps;)
++ (double)screenRecordingFps SWIFT_WARN_UNUSED_RESULT;
++ (void)setScreenRecordingFps:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL recordScreenIfNotDetermined;)
 + (BOOL)recordScreenIfNotDetermined SWIFT_WARN_UNUSED_RESULT;
 + (void)setRecordScreenIfNotDetermined:(BOOL)newValue;
@@ -642,6 +645,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hideSecureEntries;)
 + (void)start:(NSString * _Nonnull)apiKey;
 + (void)startScreenRecording;
 + (void)stopScreenRecording;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double screenRecordingFps;)
++ (double)screenRecordingFps SWIFT_WARN_UNUSED_RESULT;
++ (void)setScreenRecordingFps:(double)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL recordScreenIfNotDetermined;)
 + (BOOL)recordScreenIfNotDetermined SWIFT_WARN_UNUSED_RESULT;
 + (void)setRecordScreenIfNotDetermined:(BOOL)newValue;
