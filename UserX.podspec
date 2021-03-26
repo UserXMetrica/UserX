@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'UserX'
-    s.version          = '1.6.0'
+    s.version          = '1.7.0'
     s.summary = "UserX is an analytics platform for in-depth analysis of your users’ behavior allowing you to deliver the ultimate app experience."
     s.homepage         = 'http://userx.pro'
     s.license = {

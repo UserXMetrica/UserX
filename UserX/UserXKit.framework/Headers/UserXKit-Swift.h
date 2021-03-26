@@ -253,11 +253,17 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ThirdPartySe
 
 
 
-
 @interface UIView (SWIFT_EXTENSION(UserXKit))
 @property (nonatomic) BOOL isSensitive;
 @end
 
+
+
+
+@interface UIViewController (SWIFT_EXTENSION(UserXKit))
+/// Prevents automatic screens registration.
+@property (nonatomic) BOOL userxSkipAutoRegister;
+@end
 
 
 
@@ -309,18 +315,28 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 @end
 
 
+
+
+
+
+
+
+
+
+
 @interface UserX (SWIFT_EXTENSION(UserXKit))
-+ (void)startScreen:(id _Nonnull)screenController screenName:(NSString * _Nullable)screenName parentController:(id _Nullable)parentController parentName:(NSString * _Nullable)parentName;
+/// important:
+/// <code>startScreen(_:, screenName:, parentController:, parentName:)</code> is deprecated.
+/// Use <code>startScreen(named:)</code> method instead.
++ (void)startScreen:(id _Nonnull)screenController screenName:(NSString * _Nullable)screenName parentController:(id _Nullable)parentController parentName:(NSString * _Nullable)parentName SWIFT_DEPRECATED_MSG("will be removed in next versions. Use `startScreen(named:)` method instead.");
+/// Manual screens registration.
+/// <ul>
+///   <li>
+///     See: <code>UIViewController.userxSkipAutoRegister</code>
+///   </li>
+/// </ul>
++ (void)startScreenWithNamed:(NSString * _Nonnull)screenName;
 @end
-
-
-
-
-
-
-
-
-
 
 
 
@@ -603,11 +619,17 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ThirdPartySe
 
 
 
-
 @interface UIView (SWIFT_EXTENSION(UserXKit))
 @property (nonatomic) BOOL isSensitive;
 @end
 
+
+
+
+@interface UIViewController (SWIFT_EXTENSION(UserXKit))
+/// Prevents automatic screens registration.
+@property (nonatomic) BOOL userxSkipAutoRegister;
+@end
 
 
 
@@ -659,18 +681,28 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 @end
 
 
+
+
+
+
+
+
+
+
+
 @interface UserX (SWIFT_EXTENSION(UserXKit))
-+ (void)startScreen:(id _Nonnull)screenController screenName:(NSString * _Nullable)screenName parentController:(id _Nullable)parentController parentName:(NSString * _Nullable)parentName;
+/// important:
+/// <code>startScreen(_:, screenName:, parentController:, parentName:)</code> is deprecated.
+/// Use <code>startScreen(named:)</code> method instead.
++ (void)startScreen:(id _Nonnull)screenController screenName:(NSString * _Nullable)screenName parentController:(id _Nullable)parentController parentName:(NSString * _Nullable)parentName SWIFT_DEPRECATED_MSG("will be removed in next versions. Use `startScreen(named:)` method instead.");
+/// Manual screens registration.
+/// <ul>
+///   <li>
+///     See: <code>UIViewController.userxSkipAutoRegister</code>
+///   </li>
+/// </ul>
++ (void)startScreenWithNamed:(NSString * _Nonnull)screenName;
 @end
-
-
-
-
-
-
-
-
-
 
 
 

@@ -101,6 +101,12 @@ extension UserX {
   @objc public static func stopGesturesAttribution()
   @objc public class func clearSessions()
 }
+extension UIViewController {
+  @objc dynamic public var userxSkipAutoRegister: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
 @_hasMissingDesignatedInitializers @objc final public class ThirdPartyService : ObjectiveC.NSObject {
   @objc deinit
   @objc override dynamic public init()
@@ -146,7 +152,9 @@ extension UserX {
   }
 }
 extension UserX {
+  @available(*, deprecated, message: "will be removed in next versions. Use `startScreen(named:)` method instead.")
   @objc dynamic public class func startScreen(_ screenController: Any, screenName: Swift.String? = nil, parentController: Any? = nil, parentName: Swift.String? = nil)
+  @objc public static func startScreen(named screenName: Swift.String)
 }
 extension FileHandle : Swift.TextOutputStream {
   public func write(_ string: Swift.String)
