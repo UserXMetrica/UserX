@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target i386-apple-ios8.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UserXKit
 import CoreGraphics
 import Foundation
@@ -12,8 +12,8 @@ import VideoToolbox
 public enum RequestRecordingPermissionDialogStyle : Swift.String {
   case oneButton
   case twoButtons
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
@@ -83,9 +83,13 @@ extension UserX {
     @objc set
   }
   @objc public class func addEvent(_ name: Swift.String, with parameters: [Swift.String : Any]? = nil)
-  @objc public class func start(_ apiKey: Swift.String)
-  @objc public class func startScreenRecording()
-  @objc public class func stopScreenRecording()
+  @objc public class func start(_ apiKey: Swift.String, uploadIfMarked isTriggerMode: Swift.Bool = false)
+  @objc public static func configure(_ apiKey: Swift.String)
+  @objc public static func startSession()
+  @objc public static func stopSession()
+  @objc public static func markSessionToUpload()
+  @objc public static func startScreenRecording()
+  @objc public static func stopScreenRecording()
   @objc public static var screenRecordingFps: Swift.Double {
     @objc get
     @objc set
@@ -107,9 +111,12 @@ extension UIViewController {
     @objc set
   }
 }
+extension UserX {
+  @objc public static func startScreen(named screenName: Swift.String)
+}
 @_hasMissingDesignatedInitializers @objc final public class ThirdPartyService : ObjectiveC.NSObject {
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 extension ThirdPartyService {
   @objc public static var appsFlyer: UserXKit.ThirdPartyService {
@@ -139,8 +146,8 @@ public enum RecordingPersmissionStatus : Swift.String, Swift.Codable {
   case notDetermined
   case allowed
   case denied
-  public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
@@ -150,11 +157,6 @@ extension UserX {
     get
     set
   }
-}
-extension UserX {
-  @available(*, deprecated, message: "will be removed in next versions. Use `startScreen(named:)` method instead.")
-  @objc dynamic public class func startScreen(_ screenController: Any, screenName: Swift.String? = nil, parentController: Any? = nil, parentName: Swift.String? = nil)
-  @objc public static func startScreen(named screenName: Swift.String)
 }
 extension FileHandle : Swift.TextOutputStream {
   public func write(_ string: Swift.String)
