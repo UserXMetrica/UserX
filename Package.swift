@@ -1,4 +1,4 @@
-// swift-tools-version:5.4.2
+// swift-tools-version:5.7.1
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -14,7 +14,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "UserXKit",
-            	      url: "https://github.com/UserXMetrica/UserX/releases/download/2.0.4/UserXKit.XCFramework.zip",
-            	      checksum: "35a82473ff0c82b66d270e9119bb0b349918485ec8c59c759d8c113290ee5bb4")
+            	      url: "https://github.com/UserXMetrica/UserX/releases/download/2.0.5/UserXKit.XCFramework.zip",
+            	      checksum: "f606b773fd9fc3fd251d3ca6f0c522c97ede46f1fa217a4635a9272ba10b43f2")
     ]
 )
