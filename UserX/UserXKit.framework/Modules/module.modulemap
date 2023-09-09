@@ -1,4 +1,0 @@
-framework module UserXKit {
-  header "UserXKit-Swift.h"
-  requires objc
-}

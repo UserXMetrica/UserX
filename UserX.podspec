@@ -36,17 +36,11 @@ Pod::Spec.new do |s|
     }
     s.author           = { 'UserX' => 'dev_reg@userx.pro' }
     s.source           = { :git => 'https://github.com/UserXMetrica/UserX.git', :tag => s.version.to_s }
-    s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '11.0'
 
     s.default_subspec = 'XCFramework'
 
     s.subspec 'XCFramework' do |xcf|
         xcf.vendored_frameworks = 'UserX/UserXKit.xcframework'
-    end
-
-    s.subspec 'Fat' do |fat|
-        fat.vendored_frameworks = 'UserX/UserXKit.framework'
-        fat.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-        fat.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     end
 end
