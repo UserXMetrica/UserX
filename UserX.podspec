@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'UserX'
-    s.version          = '2.2.0'
+    s.version          = '2.2.1'
     s.summary = "UserX is an analytics platform for in-depth analysis of your users’ behavior allowing you to deliver the ultimate app experience."
     s.homepage         = 'http://userx.pro'
     s.license = {
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     }
     s.author           = { 'UserX' => 'dev_reg@userx.pro' }
     s.source           = { :git => 'https://github.com/UserXMetrica/UserX.git', :tag => s.version.to_s }
-    s.ios.deployment_target = '11.0'
+    s.ios.deployment_target = '12.0'
 
     s.default_subspec = 'XCFramework'
 

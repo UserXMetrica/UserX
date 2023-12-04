@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "UserXKit",
     platforms: [
-        .iOS(.v8)
+        .iOS(.v12)
     ],
     products: [
         .library(name: "UserXKit",
@@ -14,7 +14,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "UserXKit",
-            	      url: "https://github.com/UserXMetrica/UserX/releases/download/2.2.0/UserXKit.XCFramework.zip",
-            	      checksum: "fd94278a5cde323a1507dcf967b6d78572fbd75c2f2f6bcc5db2ca2c83db1ae2")
+            	      url: "https://github.com/UserXMetrica/UserX/releases/download/2.2.1/UserXKit.XCFramework.zip",
+            	      checksum: "e34e310779d8f1dc31b948505e621b6917229cfe0c77f972f634105da70db132")
     ]
 )
