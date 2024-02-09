@@ -7905,14 +7905,14 @@
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 29806,
+      "offset": 29807,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 29849,
+      "offset": 29850,
       "length": 5,
       "value": "false"
     },
@@ -8073,84 +8073,63 @@
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/TrustEvaluator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1763,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/TrustEvaluator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1977,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/TrustEvaluator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2185,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/TrustEvaluator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2437,
+      "offset": 2461,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/TrustEvaluator.swift",
       "kind": "BooleanLiteral",
-      "offset": 3058,
+      "offset": 2897,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/TrustEvaluator.swift",
       "kind": "BooleanLiteral",
-      "offset": 3226,
+      "offset": 3057,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/TrustEvaluator.swift",
       "kind": "BooleanLiteral",
-      "offset": 3921,
+      "offset": 4812,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/TrustEvaluator.swift",
       "kind": "BooleanLiteral",
-      "offset": 4003,
+      "offset": 4894,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/TrustEvaluator.swift",
       "kind": "IntegerLiteral",
-      "offset": 4577,
+      "offset": 5468,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/TrustEvaluator.swift",
       "kind": "BooleanLiteral",
-      "offset": 5068,
+      "offset": 5959,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/TrustEvaluator.swift",
       "kind": "BooleanLiteral",
-      "offset": 5818,
+      "offset": 6709,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/TrustEvaluator.swift",
       "kind": "BooleanLiteral",
-      "offset": 5862,
+      "offset": 6753,
       "length": 5,
       "value": "false"
     },
@@ -10376,133 +10355,133 @@
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 6255,
+      "offset": 6253,
       "length": 22,
       "value": "\"c3.console.userx.pro\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 6363,
+      "offset": 6361,
       "length": 22,
       "value": "\"c2.console.userx.pro\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 6477,
+      "offset": 6475,
       "length": 19,
       "value": "\"console.userx.pro\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 6529,
+      "offset": 6527,
       "length": 5,
       "value": "\"0.1\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 6725,
+      "offset": 6723,
       "length": 5,
       "value": "\"api\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 6803,
+      "offset": 6801,
       "length": 5,
       "value": "\"api\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 6892,
+      "offset": 6890,
       "length": 9,
       "value": "\"console\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 6981,
+      "offset": 6979,
       "length": 15,
       "value": "\"videosessions\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 7154,
+      "offset": 7152,
       "length": 32,
       "value": "\"singleSession?activityId=\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 7185,
+      "offset": 7183,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 7341,
+      "offset": 7339,
       "length": 33,
       "value": "\"byDevice?externalId=\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 7373,
+      "offset": 7371,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 7512,
+      "offset": 7510,
       "length": 32,
       "value": "\"crash\/details?externalId=\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 7543,
+      "offset": 7541,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 7654,
+      "offset": 7652,
       "length": 26,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 7672,
+      "offset": 7670,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 7679,
+      "offset": 7677,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 9357,
+      "offset": 9355,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Networking\/Networker.swift",
       "kind": "StringLiteral",
-      "offset": 9367,
+      "offset": 9365,
       "length": 1,
       "value": "\":\/\/\""
     },
