@@ -302,6 +302,25 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+SWIFT_CLASS("_TtC8UserXKit9Attribute")
+@interface Attribute : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class NSString;
+
+@interface Attribute (SWIFT_EXTENSION(UserXKit))
++ (Attribute * _Nonnull)counter:(NSString * _Nonnull)name value:(int64_t)value SWIFT_WARN_UNUSED_RESULT;
++ (Attribute * _Nonnull)increasedCounter:(NSString * _Nonnull)name by:(int64_t)value SWIFT_WARN_UNUSED_RESULT;
++ (Attribute * _Nonnull)decreasedCounter:(NSString * _Nonnull)name by:(int64_t)value SWIFT_WARN_UNUSED_RESULT;
++ (Attribute * _Nonnull)key:(NSString * _Nonnull)name boolValue:(BOOL)value SWIFT_WARN_UNUSED_RESULT;
++ (Attribute * _Nonnull)key:(NSString * _Nonnull)name intValue:(int64_t)value SWIFT_WARN_UNUSED_RESULT;
++ (Attribute * _Nonnull)key:(NSString * _Nonnull)name doubleValue:(double)value SWIFT_WARN_UNUSED_RESULT;
++ (Attribute * _Nonnull)key:(NSString * _Nonnull)name stringValue:(NSString * _Nonnull)value SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
 @interface CALayer (SWIFT_EXTENSION(UserXKit))
 @property (nonatomic) BOOL isSensitive;
 @end
@@ -324,13 +343,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ThirdPartySe
 
 
 
+
+
 @class UIResponder;
 
 @interface UIApplication (SWIFT_EXTENSION(UserXKit))
 @property (nonatomic, readonly, strong) UIResponder * _Nullable nextResponder;
 @end
-
-
 
 
 
@@ -357,7 +376,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ThirdPartySe
 @end
 
 
-@class NSString;
 
 SWIFT_CLASS_NAMED("UserX")
 @interface UserX : NSObject
@@ -395,6 +413,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hideSecureEntries;)
 + (BOOL)hideSecureEntries SWIFT_WARN_UNUSED_RESULT;
 + (void)setHideSecureEntries:(BOOL)newValue;
 + (void)addEvent:(NSString * _Nonnull)name with:(NSDictionary<NSString *, id> * _Nullable)parameters;
++ (void)applyUserAttributes:(NSArray<Attribute *> * _Nonnull)attributes;
++ (void)applyUserAttribute:(Attribute * _Nonnull)attribute;
 /// Starts analytics
 /// \param apiKey YOUR API_KEY from the account.
 ///

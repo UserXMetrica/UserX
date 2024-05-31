@@ -90,6 +90,9 @@ extension UserXKit.UserX {
     @objc set
   }
   @objc public class func addEvent(_ name: Swift.String, with parameters: [Swift.String : Any]? = nil)
+  public static func applyUserAttributes(_ attributes: UserXKit.Attribute...)
+  @objc public static func applyUserAttributes(_ attributes: [UserXKit.Attribute])
+  @objc public static func applyUserAttribute(_ attribute: UserXKit.Attribute)
   @objc public class func start(_ apiKey: Swift.String, uploadIfMarked isTriggerMode: Swift.Bool = false)
   @objc public static func configure(_ apiKey: Swift.String)
   @objc public static func startSession()
@@ -141,6 +144,18 @@ public struct Clock {
   }
   public static func sync(from pool: Swift.String = "time.apple.com", samples: Swift.Int = 4, first: ((Foundation.Date, Foundation.TimeInterval) -> Swift.Void)? = nil, completion: ((Foundation.Date?, Foundation.TimeInterval?) -> Swift.Void)? = nil)
   public static func reset()
+}
+@_hasMissingDesignatedInitializers @objc public class Attribute : ObjectiveC.NSObject {
+  @objc deinit
+}
+extension UserXKit.Attribute {
+  @objc public static func counter(_ name: Swift.String, value: Swift.Int64) -> UserXKit.Attribute
+  @objc public static func increasedCounter(_ name: Swift.String, by value: Swift.Int64 = 1) -> UserXKit.Attribute
+  @objc public static func decreasedCounter(_ name: Swift.String, by value: Swift.Int64 = 1) -> UserXKit.Attribute
+  @objc(key:boolValue:) public static func key(_ name: Swift.String, value: Swift.Bool) -> UserXKit.Attribute
+  @objc(key:intValue:) public static func key(_ name: Swift.String, value: Swift.Int64) -> UserXKit.Attribute
+  @objc(key:doubleValue:) public static func key(_ name: Swift.String, value: Swift.Double) -> UserXKit.Attribute
+  @objc(key:stringValue:) public static func key(_ name: Swift.String, value: Swift.String) -> UserXKit.Attribute
 }
 extension QuartzCore.CALayer {
   @objc dynamic public var isSensitive: Swift.Bool {
