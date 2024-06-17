@@ -6,6 +6,7 @@ import Foundation
 import MobileCoreServices
 import Security
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import VideoToolbox
@@ -114,6 +115,11 @@ extension UserXKit.UserX {
   @objc public static func startGesturesAttribution()
   @objc public static func stopGesturesAttribution()
   @objc public class func clearSessions()
+}
+@available(iOS 13.0, *)
+extension SwiftUI.View {
+  public func uxSensitive(_ sensitive: Swift.Bool = true) -> some SwiftUI.View
+  
 }
 extension UIKit.UIViewController {
   @objc @_Concurrency.MainActor(unsafe) dynamic public var userxSkipAutoRegister: Swift.Bool {

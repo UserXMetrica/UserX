@@ -3138,6 +3138,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "UserXKit"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5151,6 +5158,42 @@
           },
           {
             "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatablePair",
+                    "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14AnimatablePairV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -6004,6 +6047,41 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -6542,6 +6620,66 @@
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "uxSensitive",
+            "printedName": "uxSensitive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP8UserXKitE11uxSensitiveyQrSbF",
+            "mangledName": "$s7SwiftUI4ViewP8UserXKitE11uxSensitiveyQrSbF",
+            "moduleName": "UserXKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
       },
       {
         "kind": "TypeDecl",
@@ -7363,6 +7501,28 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -7807,6 +7967,57 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VectorArithmetic",
+            "printedName": "VectorArithmetic",
+            "usr": "s:7SwiftUI16VectorArithmeticP",
+            "mangledName": "$s7SwiftUI16VectorArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
           }
         ]
       },
@@ -8383,6 +8594,57 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VectorArithmetic",
+            "printedName": "VectorArithmetic",
+            "usr": "s:7SwiftUI16VectorArithmeticP",
+            "mangledName": "$s7SwiftUI16VectorArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
           }
         ]
       }
@@ -9313,6 +9575,13 @@
       "offset": 312,
       "length": 13,
       "value": "\"UNSUPPORTED\""
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Utils\/Extensions\/SwiftUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 266,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Libs\/Kronos\/NSTimer+ClosureKit.swift",
