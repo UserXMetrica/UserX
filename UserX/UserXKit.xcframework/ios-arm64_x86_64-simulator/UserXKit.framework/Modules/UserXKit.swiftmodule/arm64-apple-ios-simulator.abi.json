@@ -63,6 +63,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UserXKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -9257,224 +9267,224 @@
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 4505,
+      "offset": 5028,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 4590,
+      "offset": 5113,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 4777,
+      "offset": 5300,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 4829,
+      "offset": 5352,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 4881,
+      "offset": 5404,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 4935,
+      "offset": 5458,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 4998,
+      "offset": 5521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 5063,
+      "offset": 5586,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 5123,
+      "offset": 5646,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "IntegerLiteral",
-      "offset": 5170,
+      "offset": 5693,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 6811,
+      "offset": 7334,
       "length": 24,
       "value": "\"Activation setup start\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 7309,
+      "offset": 7855,
       "length": 22,
       "value": "\"Activation setup end\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 8280,
+      "offset": 8826,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 10532,
+      "offset": 11078,
       "length": 68,
       "value": "\"Exception: \""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 10556,
+      "offset": 11102,
       "length": 1,
       "value": "\"; Stacktrace: \""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 10599,
+      "offset": 11145,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "Dictionary",
-      "offset": 11218,
+      "offset": 11764,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 11591,
+      "offset": 12137,
       "length": 19,
       "value": "\"Signal: \""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 11609,
+      "offset": 12155,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 11691,
+      "offset": 12237,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 12050,
+      "offset": 12596,
       "length": 26,
       "value": "\"Catch Exceptions Enabled\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 12294,
+      "offset": 12840,
       "length": 31,
       "value": "\"Exceptions handler registered\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 12529,
+      "offset": 13075,
       "length": 28,
       "value": "\"Signals handler registered\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 12602,
+      "offset": 13148,
       "length": 27,
       "value": "\"Catch Exceptions Disabled\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 12821,
+      "offset": 13367,
       "length": 26,
       "value": "\"Exceptions handler reset\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "Dictionary",
-      "offset": 13058,
+      "offset": 13604,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 13084,
+      "offset": 13630,
       "length": 23,
       "value": "\"Signals handler reset\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 10013,
+      "offset": 10559,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 14641,
+      "offset": 15187,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 21660,
+      "offset": 22206,
       "length": 24,
       "value": "\"UserXUserIdKeychainKey\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "IntegerLiteral",
-      "offset": 23798,
+      "offset": 24344,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "IntegerLiteral",
-      "offset": 23865,
+      "offset": 24411,
       "length": 5,
       "value": "5000"
     },
@@ -10769,6 +10779,20 @@
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Data\/SystemEventInfo.swift",
       "kind": "StringLiteral",
+      "offset": 810,
+      "length": 14,
+      "value": "\"COPY_CONTENT\""
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Data\/SystemEventInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 855,
+      "length": 17,
+      "value": "\"TAKE_SCREENSHOT\""
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Data\/SystemEventInfo.swift",
+      "kind": "StringLiteral",
       "offset": 438,
       "length": 16,
       "value": "\"BATTERY_STATUS\""
@@ -10814,6 +10838,20 @@
       "offset": 765,
       "length": 17,
       "value": "\"VIDEO_PEMISSION\""
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Data\/SystemEventInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 14,
+      "value": "\"COPY_CONTENT\""
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Data\/SystemEventInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 855,
+      "length": 17,
+      "value": "\"TAKE_SCREENSHOT\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Utils\/Util.swift",
@@ -20289,7 +20327,7 @@
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Utils\/BatteryMonitor.swift",
       "kind": "StringLiteral",
-      "offset": 164,
+      "offset": 170,
       "length": 14,
       "value": "\"UserXKit.BatteryMonitor\""
     },
