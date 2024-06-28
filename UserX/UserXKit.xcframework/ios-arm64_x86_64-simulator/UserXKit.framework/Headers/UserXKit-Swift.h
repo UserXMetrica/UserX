@@ -329,6 +329,7 @@ SWIFT_CLASS("_TtC8UserXKit9Attribute")
 
 
 
+
 SWIFT_CLASS("_TtC8UserXKit17ThirdPartyService")
 @interface ThirdPartyService : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -817,6 +818,7 @@ SWIFT_CLASS("_TtC8UserXKit9Attribute")
 @interface CALayer (SWIFT_EXTENSION(UserXKit))
 @property (nonatomic) BOOL isSensitive;
 @end
+
 
 
 

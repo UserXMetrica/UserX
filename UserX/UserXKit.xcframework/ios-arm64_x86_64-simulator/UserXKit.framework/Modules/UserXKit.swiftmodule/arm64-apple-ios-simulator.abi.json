@@ -456,6 +456,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UserXKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -9477,14 +9487,14 @@
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "IntegerLiteral",
-      "offset": 24344,
+      "offset": 24349,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "IntegerLiteral",
-      "offset": 24411,
+      "offset": 24416,
       "length": 5,
       "value": "5000"
     },
@@ -10120,57 +10130,50 @@
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
+      "kind": "IntegerLiteral",
+      "offset": 752,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
+      "kind": "IntegerLiteral",
+      "offset": 758,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
+      "kind": "IntegerLiteral",
+      "offset": 765,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 1384,
+      "offset": 1591,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 1472,
+      "offset": 1679,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 1544,
+      "offset": 1751,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 1601,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1656,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1710,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1762,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1809,
+      "offset": 1808,
       "length": 4,
       "value": "true"
     },
@@ -10184,35 +10187,63 @@
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 1936,
+      "offset": 1917,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1969,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2016,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2070,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2143,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1976,
+      "offset": 2183,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
       "kind": "FloatLiteral",
-      "offset": 2042,
+      "offset": 2249,
       "length": 4,
       "value": "0.35"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2124,
+      "offset": 2331,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2283,
+      "offset": 2490,
       "length": 2,
       "value": "50"
     },
@@ -11269,21 +11300,21 @@
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/FilesConfig.swift",
       "kind": "StringLiteral",
-      "offset": 469,
+      "offset": 470,
       "length": 16,
       "value": "\"UserXAnalytics\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/FilesConfig.swift",
       "kind": "StringLiteral",
-      "offset": 569,
+      "offset": 570,
       "length": 9,
       "value": "\"Configs\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/FilesConfig.swift",
       "kind": "StringLiteral",
-      "offset": 666,
+      "offset": 667,
       "length": 10,
       "value": "\"Sessions\""
     },
