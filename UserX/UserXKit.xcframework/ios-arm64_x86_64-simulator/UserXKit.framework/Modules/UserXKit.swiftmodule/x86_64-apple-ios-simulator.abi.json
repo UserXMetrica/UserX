@@ -869,6 +869,104 @@
           },
           {
             "kind": "Var",
+            "name": "videoQuality",
+            "printedName": "videoQuality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoQuality",
+                "printedName": "UserXKit.UserX.VideoQuality",
+                "usr": "s:8UserXKit0A1XC12VideoQualityO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UserXKit@objc(cs)UserX(cpy)videoQuality",
+            "mangledName": "$s8UserXKit0A1XC12videoQualityAC05VideoD0OvpZ",
+            "moduleName": "UserXKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoQuality",
+                    "printedName": "UserXKit.UserX.VideoQuality",
+                    "usr": "s:8UserXKit0A1XC12VideoQualityO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UserXKit@objc(cs)UserX(cm)videoQuality",
+                "mangledName": "$s8UserXKit0A1XC12videoQualityAC05VideoD0OvgZ",
+                "moduleName": "UserXKit",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoQuality",
+                    "printedName": "UserXKit.UserX.VideoQuality",
+                    "usr": "s:8UserXKit0A1XC12VideoQualityO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UserXKit@objc(cs)UserX(cm)setVideoQuality:",
+                "mangledName": "$s8UserXKit0A1XC12videoQualityAC05VideoD0OvsZ",
+                "moduleName": "UserXKit",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8UserXKit0A1XC12videoQualityAC05VideoD0OvMZ",
+                "mangledName": "$s8UserXKit0A1XC12videoQualityAC05VideoD0OvMZ",
+                "moduleName": "UserXKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isMainThreadRendering",
             "printedName": "isMainThreadRendering",
             "children": [
@@ -2921,6 +3019,255 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "VideoQuality",
+            "printedName": "VideoQuality",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "medium",
+                "printedName": "medium",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UserXKit.UserX.VideoQuality.Type) -> UserXKit.UserX.VideoQuality",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoQuality",
+                        "printedName": "UserXKit.UserX.VideoQuality",
+                        "usr": "s:8UserXKit0A1XC12VideoQualityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UserXKit.UserX.VideoQuality.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VideoQuality",
+                            "printedName": "UserXKit.UserX.VideoQuality",
+                            "usr": "s:8UserXKit0A1XC12VideoQualityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8UserXKit0A1XC12VideoQualityO6mediumyA2EmF",
+                "mangledName": "$s8UserXKit0A1XC12VideoQualityO6mediumyA2EmF",
+                "moduleName": "UserXKit",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "low",
+                "printedName": "low",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UserXKit.UserX.VideoQuality.Type) -> UserXKit.UserX.VideoQuality",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoQuality",
+                        "printedName": "UserXKit.UserX.VideoQuality",
+                        "usr": "s:8UserXKit0A1XC12VideoQualityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UserXKit.UserX.VideoQuality.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VideoQuality",
+                            "printedName": "UserXKit.UserX.VideoQuality",
+                            "usr": "s:8UserXKit0A1XC12VideoQualityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8UserXKit0A1XC12VideoQualityO3lowyA2EmF",
+                "mangledName": "$s8UserXKit0A1XC12VideoQualityO3lowyA2EmF",
+                "moduleName": "UserXKit",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "high",
+                "printedName": "high",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UserXKit.UserX.VideoQuality.Type) -> UserXKit.UserX.VideoQuality",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoQuality",
+                        "printedName": "UserXKit.UserX.VideoQuality",
+                        "usr": "s:8UserXKit0A1XC12VideoQualityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UserXKit.UserX.VideoQuality.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VideoQuality",
+                            "printedName": "UserXKit.UserX.VideoQuality",
+                            "usr": "s:8UserXKit0A1XC12VideoQualityO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8UserXKit0A1XC12VideoQualityO4highyA2EmF",
+                "mangledName": "$s8UserXKit0A1XC12VideoQualityO4highyA2EmF",
+                "moduleName": "UserXKit",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UserXKit.UserX.VideoQuality?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoQuality",
+                        "printedName": "UserXKit.UserX.VideoQuality",
+                        "usr": "s:8UserXKit0A1XC12VideoQualityO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:8UserXKit0A1XC12VideoQualityO8rawValueAESgSi_tcfc",
+                "mangledName": "$s8UserXKit0A1XC12VideoQualityO8rawValueAESgSi_tcfc",
+                "moduleName": "UserXKit",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8UserXKit0A1XC12VideoQualityO8rawValueSivp",
+                "mangledName": "$s8UserXKit0A1XC12VideoQualityO8rawValueSivp",
+                "moduleName": "UserXKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8UserXKit0A1XC12VideoQualityO8rawValueSivg",
+                    "mangledName": "$s8UserXKit0A1XC12VideoQualityO8rawValueSivg",
+                    "moduleName": "UserXKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:8UserXKit0A1XC12VideoQualityO",
+            "mangledName": "$s8UserXKit0A1XC12VideoQualityO",
+            "moduleName": "UserXKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -9368,133 +9715,133 @@
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 11078,
+      "offset": 11309,
       "length": 68,
       "value": "\"Exception: \""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 11102,
+      "offset": 11333,
       "length": 1,
       "value": "\"; Stacktrace: \""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 11145,
+      "offset": 11376,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "Dictionary",
-      "offset": 11782,
+      "offset": 12013,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 12155,
+      "offset": 12386,
       "length": 19,
       "value": "\"Signal: \""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 12173,
+      "offset": 12404,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 12255,
+      "offset": 12486,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 12632,
+      "offset": 12863,
       "length": 26,
       "value": "\"Catch Exceptions Enabled\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 12876,
+      "offset": 13107,
       "length": 31,
       "value": "\"Exceptions handler registered\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 13111,
+      "offset": 13342,
       "length": 28,
       "value": "\"Signals handler registered\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 13184,
+      "offset": 13415,
       "length": 27,
       "value": "\"Catch Exceptions Disabled\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 13403,
+      "offset": 13634,
       "length": 26,
       "value": "\"Exceptions handler reset\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "Dictionary",
-      "offset": 13640,
+      "offset": 13871,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 13666,
+      "offset": 13897,
       "length": 23,
       "value": "\"Signals handler reset\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 10559,
+      "offset": 10790,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "BooleanLiteral",
-      "offset": 15223,
+      "offset": 15454,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "StringLiteral",
-      "offset": 22242,
+      "offset": 22473,
       "length": 24,
       "value": "\"UserXUserIdKeychainKey\""
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "IntegerLiteral",
-      "offset": 24385,
+      "offset": 24616,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/UserX.swift",
       "kind": "IntegerLiteral",
-      "offset": 24452,
+      "offset": 24683,
       "length": 5,
       "value": "5000"
     },
@@ -10228,24 +10575,45 @@
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
-      "kind": "FloatLiteral",
-      "offset": 2249,
-      "length": 4,
-      "value": "0.35"
-    },
-    {
-      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2331,
+      "offset": 2339,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2490,
+      "offset": 2498,
       "length": 2,
       "value": "50"
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4044,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4049,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4044,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Core\/Configs\/Config.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4049,
+      "length": 4,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/andreykorobkin\/Dev\/iOS\/Native\/UserX\/UserX\/Data\/DataInfo.swift",

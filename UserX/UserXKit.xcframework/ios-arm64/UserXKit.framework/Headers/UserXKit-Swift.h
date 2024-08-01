@@ -364,10 +364,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ThirdPartySe
 
 
 
-
 @interface UIView (SWIFT_EXTENSION(UserXKit))
 @property (nonatomic) BOOL isSensitive;
 @end
+
 
 
 
@@ -377,6 +377,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ThirdPartySe
 @end
 
 
+enum VideoQuality : NSInteger;
 
 SWIFT_CLASS_NAMED("UserX")
 @interface UserX : NSObject
@@ -393,6 +394,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isKeyboardRenderingEnable
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isScrollRenderingEnabled;)
 + (BOOL)isScrollRenderingEnabled SWIFT_WARN_UNUSED_RESULT;
 + (void)setIsScrollRenderingEnabled:(BOOL)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum VideoQuality videoQuality;)
++ (enum VideoQuality)videoQuality SWIFT_WARN_UNUSED_RESULT;
++ (void)setVideoQuality:(enum VideoQuality)quality;
 /// A Boolean indicating whether the rendering is processing on the main thread.
 /// The default value of this property is <code>true</code>.
 /// warning:
@@ -448,10 +452,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 @end
 
 
-
-
-
-
 @interface UserX (SWIFT_EXTENSION(UserXKit))
 /// Manual screens registration.
 /// <ul>
@@ -461,6 +461,20 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isFullVideoReco
 /// </ul>
 + (void)startScreenWithNamed:(NSString * _Nonnull)screenName;
 @end
+
+
+@interface UserX (SWIFT_EXTENSION(UserXKit))
+@end
+
+typedef SWIFT_ENUM(NSInteger, VideoQuality, open) {
+  VideoQualityMedium = 0,
+  VideoQualityLow = 1,
+  VideoQualityHigh = 2,
+};
+
+
+
+
 
 
 

@@ -70,6 +70,10 @@ extension UserXKit.UserX {
     @objc get
     @objc set
   }
+  @objc public static var videoQuality: UserXKit.UserX.VideoQuality {
+    @objc get
+    @objc set(quality)
+  }
   @objc public static var isMainThreadRendering: Swift.Bool {
     @objc get
     @objc set
@@ -151,6 +155,16 @@ public struct Clock {
   public static func sync(from pool: Swift.String = "time.apple.com", samples: Swift.Int = 4, first: ((Foundation.Date, Foundation.TimeInterval) -> Swift.Void)? = nil, completion: ((Foundation.Date?, Foundation.TimeInterval?) -> Swift.Void)? = nil)
   public static func reset()
 }
+extension UserXKit.UserX {
+  @objc public enum VideoQuality : Swift.Int {
+    case medium, low, high
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+}
 @_hasMissingDesignatedInitializers @objc public class Attribute : ObjectiveC.NSObject {
   @objc deinit
 }
@@ -202,6 +216,9 @@ extension UIKit.UIView {
 extension UserXKit.RequestRecordingPermissionDialogStyle : Swift.Equatable {}
 extension UserXKit.RequestRecordingPermissionDialogStyle : Swift.Hashable {}
 extension UserXKit.RequestRecordingPermissionDialogStyle : Swift.RawRepresentable {}
+extension UserXKit.UserX.VideoQuality : Swift.Equatable {}
+extension UserXKit.UserX.VideoQuality : Swift.Hashable {}
+extension UserXKit.UserX.VideoQuality : Swift.RawRepresentable {}
 extension UserXKit.RecordingPersmissionStatus : Swift.Equatable {}
 extension UserXKit.RecordingPersmissionStatus : Swift.Hashable {}
 extension UserXKit.RecordingPersmissionStatus : Swift.RawRepresentable {}
