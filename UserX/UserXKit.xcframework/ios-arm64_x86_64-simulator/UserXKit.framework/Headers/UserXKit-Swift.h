@@ -277,6 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
 @import QuartzCore;
@@ -420,6 +421,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hideSecureEntries;)
 + (void)addEvent:(NSString * _Nonnull)name with:(NSDictionary<NSString *, id> * _Nullable)parameters;
 + (void)applyUserAttributes:(NSArray<Attribute *> * _Nonnull)attributes;
 + (void)applyUserAttribute:(Attribute * _Nonnull)attribute;
++ (void)addSensitiveViewFrame:(CGRect)frame;
 /// Starts analytics
 /// \param apiKey YOUR API_KEY from the account.
 ///
@@ -785,6 +787,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
 @import QuartzCore;
@@ -928,6 +931,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hideSecureEntries;)
 + (void)addEvent:(NSString * _Nonnull)name with:(NSDictionary<NSString *, id> * _Nullable)parameters;
 + (void)applyUserAttributes:(NSArray<Attribute *> * _Nonnull)attributes;
 + (void)applyUserAttribute:(Attribute * _Nonnull)attribute;
++ (void)addSensitiveViewFrame:(CGRect)frame;
 /// Starts analytics
 /// \param apiKey YOUR API_KEY from the account.
 ///

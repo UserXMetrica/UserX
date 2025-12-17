@@ -98,6 +98,7 @@ extension UserXKit.UserX {
   public static func applyUserAttributes(_ attributes: UserXKit.Attribute...)
   @objc public static func applyUserAttributes(_ attributes: [UserXKit.Attribute])
   @objc public static func applyUserAttribute(_ attribute: UserXKit.Attribute)
+  @objc public static func addSensitiveViewFrame(_ frame: CoreFoundation.CGRect)
   @objc public class func start(_ apiKey: Swift.String, uploadIfMarked isTriggerMode: Swift.Bool = false)
   @objc public static func configure(_ apiKey: Swift.String)
   @objc public static func startSession()
