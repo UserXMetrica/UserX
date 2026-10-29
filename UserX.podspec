@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'UserX'
-    s.version          = '2.11.0'
+    s.version          = '2.11.1'
     s.summary          = "UserX Analytics iOS SDK: session recording, heatmaps and user behavior analytics for mobile apps."
     s.description      = "UserX Analytics SDK for iOS records user sessions, builds heatmaps and collects behavior analytics for your app. Integrate it into your application to see how users interact with your screens."
     s.homepage         = 'http://userx.pro'
@@ -57,10 +57,10 @@ Pod::Spec.new do |s|
     s.source = {
         :http => "https://github.com/UserXMetrica/UserX/releases/download/#{s.version}/UserXKit.XCFramework.zip",
         :type => :zip,
-        :sha256 => "90c51ec220a487d300f4b927e15664dce3512a9726025946f395fe7e6888acba"
+        :sha256 => "73cac8f9e34ba9c3e096343fd259cb6c3607165b9fea440e432b51271aaa462a"
     }
     
-    s.ios.deployment_target = '12.0'
+    s.ios.deployment_target = '15.0'
 
     s.default_subspec = 'XCFramework'
 
